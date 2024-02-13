@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
+import LottoBall from './LottoBall';
 
 function LottoMain(props) {
   const [nums,setNums] = useState(new Set())
+
+  
 
   return (
   <div className="container">

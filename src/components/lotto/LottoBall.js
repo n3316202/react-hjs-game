@@ -22,7 +22,6 @@ function LottoBall({lottoNum}) {
     }
 
     return (
-
       <div class="col-lg-2 mt-3 d-flex justify-content-around">
         <svg class="rounded-circle" margin="30" width="140" height="140" focusable="false">
           <rect width="100%" height="100%" onFill={handleColor} />
