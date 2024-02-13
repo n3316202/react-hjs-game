@@ -14,6 +14,18 @@ const routes = [
               element: <RspView/>,
             },
         ]
+    },
+    {
+        path: "/",
+        element: <App />,
+        loader: () => "로또",
+        children: [
+            {
+              path: "/",
+              loader: () => "로또",
+              element: <RspView/>,
+            },
+        ]
     }
 ]
 
